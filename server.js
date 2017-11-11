@@ -6,7 +6,7 @@ var getAPI = require('./app/routing/apiRoutes.js');
 var getHTML = require('./app/routing/htmlRoutes.js');
 
 var app = express();
-var port = 3000;
+var port = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
