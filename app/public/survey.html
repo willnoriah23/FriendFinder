@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Survey</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+   <!-- Font Awesome Glyphicons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+   <!-- Chosen -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+
+</head>
+<style>
+body {background-color: #ff96ca}
+h1   {color: black}
+p    {color: #8b8589;}
+</style>
+<body>
+	
+<div class="page-header">
+  <h1>Survey Questions</h1>
+</div>
+<br>
+
+<div class="container">
+	<h2>Name (Required)</h2>
+	<div class="input-group">
+  <input type="text" id="name" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+	</div>
+	<br>
+	<h2>Link to Photo Image (Required)</h2>
+	<div class="input-group">
+  <input type="text" class="form-control" id="photo" placeholder="Username" aria-describedby="basic-addon1">
+	</div>
+	<br>
+	<br>
+	<h3><b>Question:</b></h3>
+    <h4>You prefer to roll with a small, close knit group of friends.</h4>
+    <select data-placeholder="" class="user-selects" name="q1" id="q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+ 	<h3><b>Question:</b></h3>
+    <h4>People think you're mean, but really you're just honest.</h4>
+    <select data-placeholder="" class="user-selects" name="q2" id="q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+    	<h3><b>Question:</b></h3>
+    <h4>You prefer to follow the lead of more dominant personalities. </h4>
+    <select data-placeholder="" class="user-selects" name="q3" id="q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+    	<h3><b>Question:</b></h3>
+    <h4>You welcome and handle criticism well. </h4>
+    <select data-placeholder="" class="user-selects" name="q4" id="q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+   	<h3><b>Question:</b></h3>
+    <h4>You believe it's better to be known for something negative than not be known at all.</h4>
+    <select data-placeholder="" class="user-selects" name="q5" id="q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+    <h3><b>Question:</b></h3>
+    <h4>You enjoy being the center of attention.</h4>
+    <select data-placeholder="" class="user-selects" name="q6" id="q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+   	<h3><b>Question:</b></h3>
+    <h4>You're always willing to stand up for what's right.</h4>
+    <select data-placeholder="" class="user-selects" name="q7" id="q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+	<h3><b>Question:</b></h3>
+    <h4>You keep a close eye on everything going on around you.</h4>
+    <select data-placeholder="" class="user-selects" name="q8" id="q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+    	<h3><b>Question:</b></h3>
+    <h4>You always have a funny or sarcastic remark at the ready.</h4>
+    <select data-placeholder="" class="user-selects" name="q9" id="q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+    <br>
+    <br>
+    	<h3><b>Question:</b></h3>
+    <h4>You feel you have the ability to influence those around you.</h4>
+    <select data-placeholder="" class="user-selects" name="q10" id="q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+<br>
+<br>
+   <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+        Submit</button>
+</div>
+
+<div class="modal" tabindex="-1" role="dialog" id="resultsModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Your New BFF</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <h2 id="matchName"></h2>
+       <img id="matchImg" src =""></img>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+
+  	// Chosen CSS
+    var config = {
+      '.user-selects'           : {},
+      '.user-selects-deselect'  : {allow_single_deselect:true},
+      '.user-selects-no-single' : {disable_search_threshold:10},
+      '.user-selects-no-results': {no_results_text:'Oops, nothing found!'},
+      '.user-select-width'     : {width:"95%"}
+    }
+    for (var selector in config) {
+      $(selector).chosen(config[selector]);
+    }
+
+    $("#submit").on("click", function(){
+    	function validateForm() {
+		  var isValid = true;
+		  $('.form-control').each(function() {
+		    if ( $(this).val() === '' )
+		        isValid = false;
+		  });
+
+		  $('.user-selects').each(function() {
+
+		  	if( $(this).val() === "")
+		  		isValid = false
+		  })
+		  return isValid;
+		}
+
+		if (validateForm() == true)
+		{
+	    	var userData = {
+	    		name: $("#name").val(),
+	    		photo: $("#photo").val(),
+	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+	    	}
+
+
+	    	// var currentURL = window.location.origin;
+
+	    	$.post("/api/friends", userData).done(function(data){
+
+	    		$("#matchName").text(data.name);
+	    		$("#matchImg").attr("src", data.photo);
+
+		    	$("#resultsModal").modal('toggle');
+
+	    	});
+		}
+		else
+		{
+			alert("Please fill out all fields before submitting!");
+		}
+    	
+    	return false;
+    });
+
+  </script>
+
+</body>
+</html>
